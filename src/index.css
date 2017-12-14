@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('https://linkedinbackground.com/download/xKeep-Going.jpg.pagespeed.ic.j2x8oGPxxG.webp') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+	font-size: 40px;
+	text-align: center;
+	width: 400px;
+	margin: 250px auto;
+	color: #fff;
+
+}
+
+button {
+	margin: 10px auto;
+	padding: 5px;
+	width: 100px;
+	border-radius: 5px;
+	background: #41c4f4;
+	border: none;
+	color: #fff;
+}
+
+.button-main {
+	display: block;
+}
+
+input {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.navbar-header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	border: 1px solid black;
+	background: #42bcf4;
+}
+
+.navbar-header li {
+	display: inline;
+}
+
+.navbar-header button {
+	margin: 0;
+	padding: 0;
+}
+
+.forecast {
+	display: flex;
+	flex-wrap: wrap;	
+	list-style-type: none;
+	align-content: space-around;
+	height: 500px;
+	justify-content: space-around;
+}
+
+.forecast-day {
+	font-size: 40px;
+	margin: 20px 55px;
+	text-align: center;
+	width: 30%;
+	background: white;
+}
+
+.forecast-day li img {
+	width: 3em;
+	height: 3em;
+}
+
+.forecast-header {
+	font-size: 4em;
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 40px;
+}
